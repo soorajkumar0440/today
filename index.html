@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Proza+Libre&family=Taviraj&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="mycss.css">
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row sticky-top" id="logo">
+     
+        <div class="col text-center" style="color: aliceblue;"><h5>Wellcome to our website:</h5><h5  id="namee"></h5></div>
+        <div class="col text-center">
+        <a href=""><img src="images/logo.png" alt="" height="120px" width="120px"></a></div>
+        <div class="col text-center" style="color: aliceblue;"><h5> Audiance Views: </h5><h5  id="viewerCount"></h5></div>
+        <!-- start of navbar -->
+        <div class="row">
+        <div class="container-fluid d-flex justify-content-center ">
+
+          <nav class="navbar navbar-expand-lg mt-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#lug">LUGGAGE</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#bp">BAG PACKS</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#hb">HANDMADE BAGS</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#acc">ACCESORIES</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#content">ABOUT</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#cont">LOCATION</a>
+                    </li>
+                  </ul>  
+                </div>
+            </nav>
+        </div>
+      </div>
+  </div>
+  <!-- end of nevigation -->
+<div class="row" style="padding: 0% !important;">
+  <div class="col-12" style="background-image:linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39))">
+     <img src="images/banner3.jpg" alt="" style="width:100%;">
+  </div>
+</div>
+
+<div class="row mt-3" id="content">
+  <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>A b o u t U s</b></h2>
+  BRONEX LUGGAGE engaged in successful operations of the world’s leading brands in the Pakistani market for over two decades having representation in major cities.We are still synonymous as a company introducing the word “Brand” in the Pakistani market. <br>
+ 
+ 
+</div>    
+ 
+  <div class="container-fluid">  
+    <div class="row mt-3">
+      <h1 style="text-align: center;background-image:linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39));color: aliceblue;">Top Categories</h1>
+      <div class="col-lg-3 col-md-6 col-sm-12"><a href=""><img src="images/cover2.jpg" alt="" height="200px" width="100%" id="imm"><h4>LUGGAGE</h4></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-12"><a href=""><img src="images/hmb.jpg" alt="" height="200px" width="100%" id="imm"><h4>Bags</h4></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-12"><a href=""><img src="images/bpcover.jpg" alt="" height="200px" width="100%" id="imm"><h4>Bag Packs</h4></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-12"><a href=""><img src="images/acc3.jpg" alt="" height="200px" width="100%" id="imm"><h4>Accessories</h4></a></div>
+    </div>
+  </div>
+  <!-- luggage cards -->
+  <div class="container-fluid" id="lug">
+    <div class="row mt-3" id="productheading">
+      <h1 style="text-align: center;color: black;">Featured Products</h1>
+      <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>L u g g a g e</b></h2>
+      </div>
+      <div class="row mt-2">
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug1.png" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug1">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug2.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug2">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug3.png" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug3">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug4.png" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug4">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug5.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug1">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug6.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug2">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug7.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug3">Details</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+          <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+            <img src="images/lug2.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+            <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+              <h5 class="card-title">Luggage</h5>
+              <p class="card-text">Prize:2500</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modallug4">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- backpacs cards -->
+      <div class="container-fluid" id="bp">
+        <div class="row mt-3" id="productheading">
+          <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>B a g P a c k s</b></h2>
+          </div>
+          <div class="row mt-2">
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp1.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp10.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp11.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp2.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp3.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp4.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp5.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+              <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                <img src="images/bp9.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                  <h5 class="card-title">Bag Packs</h5>
+                  <p class="card-text">Prize:1500</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <!-- Hand made bags -->
+        <div class="container-fluid" id="hb">
+          <div class="row mt-3" id="productheading">
+            <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>H a n d m a d e B a g s</b></h2>
+            </div>
+            <div class="row mt-2">
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/handmade.jpg"card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/hmb1.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/hmb10.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/hmb3.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/hmb4.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/hmb10.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/handmade1.jpg"card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/handmade3.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Handmade Bags</h5>
+                    <p class="card-text">Prize:3000</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- Accessories -->
+        <div class="container-fluid" id="acc">
+          <div class="row mt-3" id="productheading">
+            <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>A c c e s s o r i e s</b></h2>
+            </div>
+            <div class="row mt-2">
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc1.jpg"card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc2.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc3.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc4.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc6.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12 mt-2">
+                <div class="card" style="width: 13rem; border:2px solid rgb(13, 82, 122);">
+                  <img src="images/acc7.jpg" class="card-img-top" alt="..." height="200px" width="100%">
+                  <div class="card-body" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: aliceblue;">
+                    <h5 class="card-title">Accessories</h5>
+                    <p class="card-text">1200</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">Details</a>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+          <!-- contact us -->
+          <div class="container-fluid" id="cont">
+            <div class="row mt-3" id="productheading">
+              <h2 style="text-align: center;color: rgb(4, 36, 39);"> <b>C o n t a c t U s</b></h2>
+              </div>       
+            <div class="row";">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="" style="color: white;">Full Name</label><br>
+              <input type="text"  class="form-control" name="" id="txtname" placeholder="Enetr Your Name"><br>
+              <label for=""  style="color: white;">Email address</label><br>
+              <input type="email"  class="form-control"  id="txtemail" placeholder="name@example.com"><br>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"  style="color: white;">FeedBack</label>
+              <textarea class="form-control" id="txtarea" rows="3"></textarea><br>
+            </div>
+            <button id="sub" type="button" onclick="validate()" style="background-color:rgb(4, 36, 39); border: 2px solid white; width: 100px; height: 35px;color: aliceblue;">Submit</button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4" id="con">
+            
+              <ul>
+                <li><a href=""><i class="fa fa-location-arrow"></i> Aptech Computer education</a></li>
+                <li><a href=""><i class="fa fa-envelope"></i>  www.bronexluggage.com</a></li>
+                <li><a href=""><i class="fa fa-envelope"></i>  careers.bronexluggage.com</a></li>
+                <li><a href=""><i class="fa fa-phone"></i>+9212 56444 45</a></li>
+              </ul>
+            
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4" id="soc">
+            <div class="social-links">
+             <li><a href=""><i class="fab fa-facebook-f"></i></a>Bronexluggage</li>
+             <li><a href=""><i class="fab fa-twitter"></i></a>Twitter</li>
+             <li><a href=""><i class="fab fa-instagram"></i></a>instagram</li>
+             <li><a href=""><i class="fab fa-whatsapp"></i></a>+9212 56444 45</li>
+            </div>
+          </div>
+        </div>
+         
+      <div class="row" id="div-map" style="height: 300px;">
+
+      </div>
+        </div>
+          </div>
+          <!-- datetime ticker -->
+          <div class="row mt-4" style="border-bottom: 2px solid rgb(13, 82, 122); border-top: 2px solid rgb(13, 82, 122);height: 50px;">
+
+            <marquee behavior="" direction="left">
+              <div class=" text-center" style="color:black; float: left; padding-right: 100px; font-weight: bolder; font-size: 25px;">
+                <span id="hour">00</span>
+                <span >/</span>
+                <span id="minute">00</span>
+                <span>/</span>
+                <span id="sec">00</span>
+                <span id="session">AM</span>
+              </div>
+
+              <div class=" text-center" style="color:black; float: left; padding-right: 100px; font-weight: bolder; font-size: 25px;">
+                <span id="day"></span>
+                <span >/</span>
+                <span id="month"></span>
+                <span>/</span>
+                <span id="year"></span>
+              </div>
+<div >
+<a href="index.html" style="color:black; float: left; padding-right: 100px; font-weight: bolder; font-size: 25px;"">www.bronexluggage.com</a>
+</div>
+             </marquee>
+
+          
+          </div>
+          <!-- datetime ticker end -->
+          <div class="container-fluid text-center">
+          <footer>
+            <div class="row mt-4 text-center">
+           <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <h5>Shop and Explore</h5>
+          <ul id="mark" style="list-style: none;">
+            <a href="#lug"><li>Luggage</li></a>
+            <a href="#hb"><li>Handbags</li></a>
+            <a href="#bp"><li>Backpacks</li></a>
+            <a href="#acc"><li>Accessories</li></a>
+          </ul>
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <h5>Social Media</h5>
+          <ul id="mark" style="list-style: none;">
+            <a href="https://www.facebook.com/"><li>Facebook</li></a>
+            <a href="https://www.instagram.com/"><li>Instagram</li></a>
+            <a href="https://pk.linkedin.com/"><li>Linked in</li></a>
+            <a href="https://www.youtube.com/"><li>Youtube</li></a>
+          </ul>
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <h5>Others</h5>
+          <ul id="mark" style="list-style: none;">
+            <a href="#cont"><li>Contact us</li></a>
+            <a href="#"><li>Careers</li></a>
+            <a href="#lug"><li>All products</li></a>
+            <a href="#site"><li>Site map</li></a>
+          </ul>
+           </div>
+          </div> 
+          </footer>
+        </div>  
+  </div>
+  <!-- welcome popup -->
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-image: linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)); color: white; border: 2px solid white;">
+            <div class="modal-header">
+               <img src="images/logo.png" alt="" height="150px" width="150px">
+             
+            <div class="modal-body">
+                <p>Please Enter Your Name To Continue</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div><br>  
+                    </div>
+                    <button type="button" style="background: transparent; border: white !important ;" id="bbt" class="btn btn-primary" onclick="call()">Continue</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- product popups Luggage -->
+<div class="modal fade" id="Modallug1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="border: 2px solid white;">
+        <div class="modal-content" >
+          <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+            <h5 class="modal-title" id="exampleModalLabel" ><img src="images/lug1.png"card-img-top" alt="..." height="300px" width="100%"></h5>
+          </div>
+          <div class="modal-body" style="background-color: black; color: white;">
+            <p>High Quality Luggage Products in multiple colors and sizes</p>
+            <p>Available in affordable prices</p>
+            <p>Price:3000</p>
+          </div>
+          <div class="modal-footer" style="background-color: black;  border-top: none;" >
+            <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modallug2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" style="border: 2px solid white;">
+            <div class="modal-content" >
+              <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                <h5 class="modal-title" id="exampleModalLabel" ><img src="images/lug2.jpg" alt="" height="300px" width="100%"></h5>
+              </div>
+              <div class="modal-body" style="background-color: black; color: white;">
+                <p>High Quality Luggage Products in multiple colors and sizes</p>
+                <p>Available in affordable prices</p>
+                <p>Price:3000</p>
+              </div>
+              <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="Modallug3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" style="border: 2px solid white;">
+                <div class="modal-content" >
+                  <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                    <h5 class="modal-title" id="exampleModalLabel" ><img src="images/lug3.png" alt="" height="300px" width="100%"></h5>
+                  </div>
+                  <div class="modal-body" style="background-color: black; color: white;">
+                    <p>High Quality Luggage Products in multiple colors and sizes</p>
+                    <p>Available in affordable prices</p>
+                    <p>Price:3000</p>
+                  </div>
+                  <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                    <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modallug4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" style="border: 2px solid white;">
+                    <div class="modal-content" >
+                      <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                        <h5 class="modal-title" id="exampleModalLabel" ><img src="images/lug4.png" alt="" height="300px" width="460px"></h5>
+                      </div>
+                      <div class="modal-body" style="background-color: black; color: white;">
+                        <p>High Quality Luggage Products in multiple colors and sizes</p>
+                        <p>Available in affordable prices</p>
+                        <p>Price:3000</p>
+                      </div>
+                      <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                        <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- product popups accesories -->
+                <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" style="border: 2px solid white;">
+                        <div class="modal-content" >
+                          <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                            <h5 class="modal-title" id="exampleModalLabel" ><img src="images/acc1.jpg"card-img-top" alt="..." height="300px" width="100%"></h5>
+                          </div>
+                          <div class="modal-body" style="background-color: black; color: white;">
+                            <p>High Quality bags Products in multiple colors and sizes</p>
+                            <p>Available in affordable prices</p>
+                            <p>Price:1500</p>
+                          </div>
+                          <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                            <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" style="border: 2px solid white;">
+                            <div class="modal-content" >
+                              <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                                <h5 class="modal-title" id="exampleModalLabel" ><img src="images/acc2.jpg" alt="" height="300px" width="100%"></h5>
+                              </div>
+                              <div class="modal-body" style="background-color: black; color: white;">
+                                <p>High Quality bags Products in multiple colors and sizes</p>
+                                <p>Available in affordable prices</p>
+                                <p>Price:1500</p>
+                              </div>
+                              <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                                <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" style="border: 2px solid white;">
+                                <div class="modal-content" >
+                                  <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                                    <h5 class="modal-title" id="exampleModalLabel" ><img src="images/acc3.jpg" alt="" height="300px" width="100%"></h5>
+                                  </div>
+                                  <div class="modal-body" style="background-color: black; color: white;">
+                                    <p>High Quality bags Products in multiple colors and sizes</p>
+                                    <p>Available in affordable prices</p>
+                                    <p>Price:1500</p>
+                                  </div>
+                                  <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                                    <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" style="border: 2px solid white;">
+                                    <div class="modal-content" >
+                                      <div class="modal-header" style="background-color: black; border-bottom: 2px solid #e2b16d;">
+                                        <h5 class="modal-title" id="exampleModalLabel" ><img src="images/acc4.jpg" alt="" height="300px" width="460px"></h5>
+                                      </div>
+                                      <div class="modal-body" style="background-color: black; color: white;">
+                                        <p>High Quality bags Products in multiple colors and sizes</p>
+                                        <p>Available in affordable prices</p>
+                                        <p>Price:1500</p>
+                                      </div>
+                                      <div class="modal-footer" style="background-color: black;  border-top: none;" >
+                                        <a href="des.docx"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">download</button></a>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #fffffe; color:black;">Close</button>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div> 
+
+
+<script>
+             function call()
+  {
+      
+      var get=document.getElementById("name").value;
+      localStorage.setItem("name",get);
+      var set=document.getElementById("namee").innerHTML=localStorage.getItem("name",set);
+  
+  }
+  $(document).ready(function(){
+      $("#bbt").click(function(){
+          $("#myModal").modal('hide');
+      })
+});
+  $(document).ready(function(){
+$("#myModal").modal('show');
+});
+// counter
+let viewerCount = parseInt(localStorage.getItem("viewerCount"));
+  let p = document.getElementById("viewerCount");
+  if (!viewerCount) {
+    viewerCount = 1;
+  } else {
+    viewerCount += 1;
+  }
+  localStorage.setItem("viewerCount", viewerCount);
+  p.innerText = viewerCount;
+// ticker
+function displaydate()
+{
+  var getdate=new Date();
+var hour=getdate.getHours();
+var min=getdate.getMinutes();
+var sec=getdate.getSeconds();
+var day=getdate.getDate();
+var month=getdate.getMonth();
+var year=getdate.getFullYear();
+document.getElementById("day").innerHTML=day;
+document.getElementById("month").innerHTML=month+1;
+document.getElementById("year").innerHTML=year;
+var sessiion=document.getElementById("session");
+
+document.getElementById("hour").innerHTML=hour;
+document.getElementById("minute").innerHTML=min;
+document.getElementById("sec").innerHTML=sec;
+}
+setInterval(displaydate,100);
+// geolocation map
+
+var div_map = document.getElementById("div-map");
+                  var LatLng = new google.maps.LatLng(24.852852, 67.064440)
+                
+                  var map = new google.maps.Map(div_map,{
+                    center: LatLng,
+                    zoom: 16,
+                    mapTypeId: 'roadmap',
+                  })
+                  let marker = new google.maps.Marker({
+                    position:LatLng,
+                    map: map,
+                    title : 'Bronex Luggage',
+                    lable : 'BL',
+                    draggable: true,
+                  })
+
+
+
+</script>
+</body>
+</html>

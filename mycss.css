@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Proza+Libre&family=Taviraj&display=swap');
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Taviraj', serif;
+    
+  
+}
+/* body
+{
+  background-image: url(images/cobermain.jpg);
+} */
+#logo
+{
+    height: 160px;
+    background-image:linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)) !important;
+}
+#back
+{
+
+background-size: cover !important;
+
+}
+.navbar
+{
+  position: absolute !important;
+top: 33%;
+display: flex;
+justify-content: center;
+
+}
+.nav-link
+{
+  color: white !important;
+  font-weight: 20px;
+  font-size: 20px;
+}
+.col-lg-3 col-md-6 col-sm-12
+{
+  border-left: 2px solid rgb(13, 82, 122);
+ 
+}
+.col-lg-3 img
+{
+ 
+ border-radius: 5%;
+ filter: grayscale(100%);
+}
+h4
+{
+  margin-top: 10px;
+  text-align: center;
+  border: 2px solid rgb(13, 82, 122); 
+}
+ a
+{
+  text-decoration: none;
+  color: black;
+box-sizing: border-box;
+}
+.col-lg-3 #imm:hover
+{
+  filter: grayscale(0) !important;
+
+}
+.col-lg-3 :hover h4{
+  background-color:rgb(13, 82, 122) !important ;
+color: aliceblue;
+
+}
+.btn
+{
+ color: rgb(1, 13, 24);
+background: transparent;
+color: aliceblue;
+border: 2px solid rgb(13, 82, 122);
+ 
+}
+.btn:hover
+{
+  background-image:linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)) !important;
+  color: aliceblue;
+}
+#content
+{
+ 
+ 
+  border-top: 2px solid rgb(13, 82, 122);
+  border-bottom: 2px solid rgb(4, 36, 39);
+  text-align: center;
+
+  color: black;
+  font-size: large;
+ 
+}
+#productheading
+{
+  border-top: 2px solid rgb(13, 82, 122);
+  border-bottom: 2px solid rgb(4, 36, 39);
+
+
+}
+.col-lg-3 .card img
+{
+  filter: grayscale(0) !important;
+}
+footer
+{
+  height: auto;
+  background-image:linear-gradient(rgb(13, 82, 122),rgb(4, 36, 39)) !important;
+  color: white;
+}
+#mark a:hover
+{
+color: aliceblue;
+}
+/* footer h5
+{
+  text-align: center;
+} */
